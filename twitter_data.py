@@ -38,7 +38,7 @@ if __name__ == "__main__":
 		print("Usage: PYSPARK_PYTHON=python3 /bin/spark-submit ex.py <YOUR WORD>", file=sys.stderr)
 		exit(-1)
 	
-	word = "india"#sys.argv[1] # topic for which we have to perform sentimental analysis
+	word = "Global warming"#sys.argv[1] # topic for which we have to perform sentimental analysis
 
 	auth = OAuthHandler(consumer_key, consumer_secret)
 	auth.set_access_token(access_token, access_secret)
