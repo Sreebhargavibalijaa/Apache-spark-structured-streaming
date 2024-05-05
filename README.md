@@ -11,3 +11,5 @@ Code detailed explanation:-
 • A later stream listener named "Twitter data" was created to generate data for the kafka topic "Global warming". This new method was included in Twitter data object using Affinn module for calculating the sentimental value of tweet
 • Further the streaming data is converted into the structured data and placed in sql table named "SQldata" which has two columns "text" and "senti_val"
 • Pyspart.sql functions are used to calculate the average of sentimental values of the senti_val column, function fun is added to categorize the tweet to positive, negative or neutral based on the score.
+
+![image](https://github.com/Sreebhargavibalijaa/Apache-spark-structured-streaming/assets/115974245/742ed6b9-2bc1-42eb-8c32-bc2e81c7923d)
